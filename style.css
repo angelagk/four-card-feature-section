@@ -30,8 +30,8 @@ body {
 .boxes {
   display: flex;
   margin: 0 auto;
-  max-width: 1440px;
-  justify-content: space-between;
+  max-width: 1200px;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -39,12 +39,13 @@ body {
 .box2,
 .box3,
 .box4 {
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 230px;
   color: hsl(234, 12%, 34%);
-  margin-top: 30px;
-  padding-left: 25px;
-  padding-right: 25px;
+  margin: 30px 20px 30px 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 
   box-sizing: border-box;
   box-shadow: 0px 8px 18px 3px rgba(0, 0, 0, 0.3);
@@ -74,6 +75,10 @@ body {
 }
 .boxes img {
   float: right;
+}
+
+.group {
+  display: table-column;
 }
 footer {
   text-align: center;
